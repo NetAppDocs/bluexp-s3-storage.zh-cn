@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-add-s3-bucket.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: 在Canvas中提供Amazon S3工作环境后、您可以直接从BlueXP添加其他分段。 
+---
+= 添加S3存储分段
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在Canvas中提供Amazon S3工作环境后、您可以直接从BlueXP添加其他分段。
+
+.步骤
+. 在Canvas中、双击Amazon S3工作环境以查看Amazon S3 Bucket Overview页面、然后单击*添加存储分段*。
++
+image:screenshot-add-amazon-s3-bucket-button.png["显示Amazon S3工作环境和\"添加存储分段\"按钮详细信息的屏幕截图。"]
+
++
+此时将显示_Add bucket_页面。
+
++
+image:screenshot-add-amazon-s3-bucket.png["显示\"添加存储分段\"页面的屏幕截图、用于创建您自己的Amazon S3存储分段。"]
+
+. 在添加存储分段页面中、输入创建存储分段所需的信息、然后单击*应用*。
++
+.. 输入要用于存储分段的名称。
+.. 选择要成为存储分段所有者的AWS帐户。此帐户可以是部署Connector的主帐户、也可以是 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["您已添加到BlueXP的其他帐户"^]。
+.. 选择要创建存储分段的AWS区域。
+.. 或者、您也可以在存储分段上启用S3对象锁定、以便使用一次写入多读(Write Once Read-Many、WORM)模型存储对象。如果您计划使用对象锁定、则必须在创建存储分段时启用它。启用对象锁定还可以启用版本控制。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["从Amazon S3文档中了解有关对象锁定的更多信息"^]。
++
+此时将创建存储分段。
+
+
+
+
+
+.下一步行动
+首次添加存储分段时、您不能手动配置版本控制、标记或加密。创建存储分段后、您可以配置存储分段的其他这些属性。 link:task-change-s3-bucket-settings.html["了解有关更改存储分段设置的更多信息"]。

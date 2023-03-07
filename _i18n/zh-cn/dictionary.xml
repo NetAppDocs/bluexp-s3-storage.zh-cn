@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="efd9710de9c698fbbeb7b7b11597f70b" category="summary">在AWS中安装Connector后、BlueXP可以自动发现有关安装此Connector的AWS帐户中的Amazon S3存储分段的信息。Amazon S3工作环境已添加到Canvas中、您可以查看此信息。</block>
+  <block id="f7099ec977551c0bfc4264472c0bf927" category="doc">查看 Amazon S3 存储分段</block>
+  <block id="bf9799ea7692475c7cf9755a148ec201" category="paragraph">您可以查看有关S3存储分段的详细信息、包括区域、访问策略、帐户、总容量和已用容量等。这些存储分段可用作云备份、云分层或Cloud Sync 操作的目标。此外、您还可以使用Cloud Data sense扫描这些分段。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
+  <block id="9c626900b015a97ee8e428d66dd7d5d1" category="inline-link">安装连接器</block>
+  <block id="e3d07a5a8e9d92ec07ff54bddf83b566" category="list-text"><block ref="4ef510fbfc2c4b2e5e25d70526475251" category="inline-link-rx"></block> 在要查看 Amazon S3 存储分段的 AWS 帐户中。</block>
+  <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">从导航菜单中、选择*存储&gt;画布*。</block>
+  <block id="89333a465b6c97994dd32a6e7b896c78" category="paragraph">您应在不久后自动看到Amazon S3工作环境。</block>
+  <block id="620734ddcf438083fa8f2f7a7550fbbf" category="inline-image-macro">Amazon S3 工作环境的屏幕截图。</block>
+  <block id="93850b8e1d97181700833dcae4c7e219" category="paragraph"><block ref="93850b8e1d97181700833dcae4c7e219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9f8c79c12186f277b18c0a88881b6c2d" category="list-text">如果要对S3存储启用BlueXP服务、请单击工作环境并从右窗格中选择一项操作。</block>
+  <block id="3664079914496ab0ee90209b4ace936f" category="inline-image-macro">选择 Amazon S3 工作环境后显示操作窗格的屏幕截图。此窗格显示有关S3的信息：分段数量和可用服务。</block>
+  <block id="5f5106419e685f6e9190157425cf9f03" category="paragraph"><block ref="5f5106419e685f6e9190157425cf9f03" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6f371b1b2b98ce128fad66dd28599e7a" category="inline-link-macro">了解哪些BlueXP服务可用、并了解如何将其与S3存储分段结合使用</block>
+  <block id="229cfda928e566937d5c5c424f2865dc" category="paragraph"><block ref="73b3af182b51af9520244e5fd9710630" category="inline-link-macro-rx"></block>。</block>
+  <block id="ceeee7f8ead6f81a6db4d7c78b588177" category="list-text">单击*进入工作环境*、或者双击工作环境、以查看AWS帐户中S3存储分段的详细信息。</block>
+  <block id="36aef4dd1ad8e5d43e4337638d99308c" category="inline-image-macro">显示Amazon S3工作环境详细信息的屏幕截图：存储分段总数和区域总数、以及显示每个S3存储分段详细信息的表。</block>
+  <block id="f529be174f5fab5c827176b726784ddb" category="paragraph"><block ref="f529be174f5fab5c827176b726784ddb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7462056cb7ed96e8e2bfa335d78d9644" category="paragraph">除了默认显示的列之外、您还可以滚动此页面以查看存储分段的其他属性、例如标记数量以及是否已启用对象锁定或版本控制。</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">下一步行动</block>
+  <block id="8844ea245d7c08ab2233754002d80b15" category="inline-image-macro">"三个点更多"按钮</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">有关详细信息，请访问此处</block>
+  <block id="f7c83d52179afb4b4905222f46b12fe3" category="paragraph">您可以通过单击直接从BlueXP更改某些存储分段设置 <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> 用于存储分段。 <block ref="fb2338c21d7a6262957fb98c8ca54de1" category="inline-link-macro-rx"></block>。</block>
+  <block id="09939f5de1c156803c6295670449beb2" category="paragraph">您可以单击*添加存储分段*来添加新的S3存储分段。 <block ref="24acb8e540fa67d1a53c15525bc66748" category="inline-link-macro-rx"></block>。</block>
+  <block id="fd81bc78e6eb1ed21649501d070de560" category="summary">在Canvas中提供Amazon S3工作环境后、您可以直接从BlueXP添加其他分段。</block>
+  <block id="9fed572004c981252beb21bc105f5af0" category="doc">添加S3存储分段</block>
+  <block id="eec1611e65af5313f39a130a94b37fd3" category="list-text">在Canvas中、双击Amazon S3工作环境以查看Amazon S3 Bucket Overview页面、然后单击*添加存储分段*。</block>
+  <block id="78724860366c3bfbfc6830cc113707ff" category="inline-image-macro">显示Amazon S3工作环境和"添加存储分段"按钮详细信息的屏幕截图。</block>
+  <block id="3b01b7a48d95707e023a4d4ce3014625" category="paragraph"><block ref="3b01b7a48d95707e023a4d4ce3014625" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7905235e0b9d47c87993bfcf15c3dd50" category="paragraph">此时将显示_Add bucket_页面。</block>
+  <block id="00a88d7e893489f7027efb13ae84d764" category="inline-image-macro">显示"添加存储分段"页面的屏幕截图、用于创建您自己的Amazon S3存储分段。</block>
+  <block id="10c37be4b76c325674d0f1f15302365a" category="paragraph"><block ref="10c37be4b76c325674d0f1f15302365a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3528909a31eaf26ed1ec5e91d30680b6" category="list-text">在添加存储分段页面中、输入创建存储分段所需的信息、然后单击*应用*。</block>
+  <block id="0b70185623faa55e384834695ae8d364" category="list-text">输入要用于存储分段的名称。</block>
+  <block id="597de3cf2a2ed6f9bd6e82c0a7a73572" category="inline-link">您已添加到BlueXP的其他帐户</block>
+  <block id="085c603a33e2a93fe33cfaa53bde3bed" category="list-text">选择要成为存储分段所有者的AWS帐户。此帐户可以是部署Connector的主帐户、也可以是<block ref="04ca776e6b618b849c3932f8646ac1fb" category="inline-link-rx"></block>。</block>
+  <block id="0122311ed1a57dce15e992365a9457e2" category="list-text">选择要创建存储分段的AWS区域。</block>
+  <block id="949a961e422bda6c898ac6590ce47cb8" category="inline-link">从Amazon S3文档中了解有关对象锁定的更多信息</block>
+  <block id="d87ea88e84d5837b06e24d3c7e16b421" category="list-text">或者、您也可以在存储分段上启用S3对象锁定、以便使用一次写入多读(Write Once Read-Many、WORM)模型存储对象。如果您计划使用对象锁定、则必须在创建存储分段时启用它。启用对象锁定还可以启用版本控制。<block ref="1399ee2a35dec21bba05889732a3a632" category="inline-link-rx"></block>。</block>
+  <block id="157d206d0cc91be4095d98f9df679cf4" category="paragraph">此时将创建存储分段。</block>
+  <block id="a73444cc5dd6f6171b437eedb6a7d462" category="inline-link-macro">了解有关更改存储分段设置的更多信息</block>
+  <block id="daf6241c571815ccb6a2fba56c3d3d3a" category="paragraph">首次添加存储分段时、您不能手动配置版本控制、标记或加密。创建存储分段后、您可以配置存储分段的其他这些属性。 <block ref="b8a8855fb27be3598054e27761fb286f" category="inline-link-macro-rx"></block>。</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp通过多种方式为BlueXP提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp通过多种方式为BlueXP及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助支持选项</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知识库</block>
+  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">搜索BlueXP知识库、查找有助于解决问题的文章。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社区</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进BlueXP。</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支持部门创建案例</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">开始之前</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">了解如何注册获取支持</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">要使用*创建案例*功能、您必须先一次性注册您的BlueXP帐户ID序列号(即960xxxx)。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">在BlueXP中、单击*帮助&gt;支持*。</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在*资源*页面上、在技术支持下选择一个可用选项：</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您要通过电话与某人通话、请单击*致电我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp 支持站点 Account*：选择与创建支持案例的人员关联的适用帐户。除下面提供的其他电子邮件外、此人还将是NetApp的主要联系人。</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">如果您未看到NSS帐户、则可以导航到BlueXP支持部分中的* NSS管理*选项卡以将其添加到该选项卡中。</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题描述 关联的服务。例如、当特定于技术支持问题描述 时、如果服务中包含工作流或功能、则为BlueXP。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的BlueXP帐户、工作空间和Connector的范围。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级、可以是"低"、"中"、"高"或"严重"。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有关这些优先级的更多详细信息、请将鼠标悬停在字段名称旁边的信息图标上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*问题描述 *：提供问题的详细问题描述 、包括任何适用的错误消息或您执行的故障排除步骤。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他电子邮件地址*：如果您希望其他人了解此问题描述 、请输入其他电子邮件地址。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">创建案例表的屏幕截图、可用于向NetApp支持部门创建案例。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">此时将显示一个弹出窗口、其中包含您的支持案例编号。NetApp支持专家将审核您的案例、并尽快与您联系。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">有关支持案例的历史记录、您可以单击*设置&gt;时间线*并查找名为"创建支持案例"的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时、您可能会遇到以下错误消息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您无权针对选定服务创建案例"</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">此错误可能意味着NSS帐户及其关联的记录公司与BlueXP帐户序列号(即960xxxx)或工作环境序列号。您可以查看*创建案例*表顶部的NSS帐户列表以找到正确的匹配项、也可以使用以下选项之一寻求帮助：</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用产品内聊天功能</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">通过提交非技术案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">管理支持案例(预览)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">您可以直接从BlueXP查看和管理活动的和已解决的支持案例。您可以管理与您的NSS帐户和公司关联的案例。</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">案例管理以预览形式提供。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">页面顶部的案例管理信息板提供了两个视图：</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左侧视图显示了您提供的用户NSS帐户在过去3个月内打开的案例总数。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右侧视图显示了过去3个月内根据用户NSS帐户在公司级别开立的案例总数。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">此表中的结果反映了与选定视图相关的案例。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以添加或删除感兴趣的列、也可以筛选优先级和状态等列的内容。其他列仅提供排序功能。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">有关更多详细信息、请查看以下步骤。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每个案例级别、我们可以更新案例备注或关闭尚未处于"已关闭"或"待关闭"状态的案例。</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">单击*案例管理*、如果出现提示、请将您的NSS帐户添加到BlueXP。</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">"*案例管理*"页面显示了与您的BlueXP用户帐户关联的NSS帐户相关的已打开案例。此NSS帐户与* NSS管理*页面顶部显示的NSS帐户相同。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">也可以修改表中显示的信息：</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*组织的案例*下、单击*查看*以查看与您的公司关联的所有案例。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择确切的日期范围或选择其他时间范围来修改日期范围。</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理页面上表上方选项的屏幕截图、可用于选择确切的日期范围或过去7天、30天或3个月。</block>
+  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">筛选列的内容。</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">"状态"列中筛选选项的屏幕截图、可用于筛选与特定状态(如"活动"或"已关闭")匹配的案例。</block>
+  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表中显示的加号图标</block>
+  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">通过单击更改表中显示的列 <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">显示可在表中显示的列的屏幕截图。</block>
+  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">包含三个点的图标、显示在表的最后一列中</block>
+  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">单击以管理现有案例 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
+  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">*更新案例注释*：提供有关您的问题的更多详细信息。</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*关闭案例*：提供关闭案例的详细信息、然后单击*关闭案例*。</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图、显示在表的最后一列中选择菜单后可以执行的操作。</block>
+  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 徽标和 NetApp 商标页面上列出的标记是 NetApp 、 Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">有关 NetApp 拥有的专利的最新列表，请访问：</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="5617fc4c90db2216d4ba9da3ed61d8ee" category="summary">在BlueXP中发现S3存储分段后、您可以使用NetApp数据服务进行备份、分层、分类和数据同步。</block>
+  <block id="49b9d9b89078e5e4f47991c877526750" category="doc">将NetApp数据服务与S3存储分段结合使用</block>
+  <block id="db0f7065ba0a96411a0de05280ec7352" category="list-text">使用*云备份*将数据从内部ONTAP 和Cloud Volumes ONTAP 系统备份到S3对象存储。</block>
+  <block id="7eb41a611de377805e9a7df9b3ae691b" category="paragraph">要开始使用、请转到"画布"、将内部ONTAP 或Cloud Volumes ONTAP 工作环境拖放到您的Amazon S3工作环境中。</block>
+  <block id="7b7fcd600f1d926ca9fe6a7cb21750f2" category="inline-link">了解有关将ONTAP 数据备份到Amazon S3存储的更多信息</block>
+  <block id="16c28e3d84a53771a1a9299bf39e52c2" category="paragraph"><block ref="4ecde652b89e6f04e3058b0cb9af264c" category="inline-link-rx"></block>。</block>
+  <block id="7202459e7043ba4b6f866b6aa920e679" category="list-text">使用*云分层*将内部ONTAP 集群中的非活动数据分层到S3对象存储。</block>
+  <block id="3e0f8335010aedcfb82affccaacd20ec" category="paragraph">要开始使用、请转到"画布"并将内部ONTAP 工作环境拖放到您的Amazon S3工作环境中。</block>
+  <block id="a9dee648c451dbc4fdeeab5bcb9014ed" category="inline-link">了解有关将ONTAP 数据分层到Amazon S3存储的更多信息</block>
+  <block id="9858a8b4f4f88f76a27f43472f5f6ca4" category="paragraph"><block ref="fa191a4a135c670d0161f99d5ad270e4" category="inline-link-rx"></block>。</block>
+  <block id="0e1d535f7ffeb46d1cedce4380540ece" category="list-text">使用* S3存储分段*将数据同步到Cloud Sync 存储分段或从S3存储分段同步数据。</block>
+  <block id="b1e27059ba7694353c38efd583f70d7c" category="paragraph">要开始使用、请转到"画布"并将源工作环境拖放到目标工作环境上。您的Amazon S3工作环境可以是源环境、也可以是目标环境。</block>
+  <block id="ab9e49315276ae32c73ed19323492c14" category="paragraph">您也可以选择Amazon S3工作环境、然后单击服务面板中的*同步数据*、以便与S3存储分段同步数据。</block>
+  <block id="d7ac8297012a05979b15d24f9d3b130c" category="inline-link">了解有关Cloud Sync 服务的更多信息</block>
+  <block id="1bd2d5ff3aeebe1a238c886f7388e42f" category="paragraph"><block ref="9349c5ab3057a0ff71d35b794d6794a5" category="inline-link-rx"></block>。</block>
+  <block id="024e60ab8f7a88270d46c6aed054f6bd" category="list-text">使用*云数据感知*扫描S3存储分段中的个人数据和敏感数据。Cloud Data sense可以扫描帐户中的任何存储分段、而不管它是否是为NetApp解决方案 创建的。</block>
+  <block id="55bd7bd6bf396c28ae8aca1611f8ee53" category="paragraph">要开始使用、请选择您的Amazon S3工作环境、然后从服务面板的*分类*部分中选择相应的选项以启动S3存储分段扫描。</block>
+  <block id="febefe350001907b76b53ef88b63361e" category="inline-link">详细了解Cloud Data sense服务</block>
+  <block id="3ef78a45208afe4b2f2ca2cdade6c100" category="paragraph"><block ref="4ba69bfe1627585dab52e6f3cbb737bc" category="inline-link-rx"></block>。</block>
+  <block id="f5b5c580cdea371eec20c3e34f9c28d4" category="summary">开始将Amazon S3存储与您的BlueXP系统(以前称为Cloud Manager)结合使用。</block>
+  <block id="3bcfa77ba520ecdb90dbb673cc23cb5e" category="doc">Amazon S3存储文档</block>
+  <block id="f54c8c1223f73d87869999847d1ae49e" category="summary">了解BlueXP中Amazon S3存储的新增功能。</block>
+  <block id="9a8d5d2b68f540bdc8d48d6f59172160" category="doc">在BlueXP中使用Amazon S3存储的新增功能</block>
+  <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023年3月5日</block>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">能够从BlueXP添加新存储分段</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">了解如何添加新的Amazon S3存储分段</block>
+  <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">您可以在BlueXP Canvas上查看Amazon S3存储分段已有一段时间了。现在、您可以直接从BlueXP添加新存储分段并更改现有存储分段的属性。<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>。</block>
+  <block id="d83ada820c6219a6100ac0d45a42417f" category="summary">在Canvas中提供Amazon S3工作环境后、您可以直接从BlueXP更改某些存储分段属性。</block>
+  <block id="03d1d7c5f3e9143c651013d5a8df19ed" category="doc">更改S3存储分段设置</block>
+  <block id="98b683df18d829ab5d0c1a0667ef090e" category="paragraph">请注意、您不能更改存储分段名称、AWS帐户、区域或对象锁定设置。</block>
+  <block id="c1e90160a62fa1921449efb18231f40d" category="paragraph">您可以更改的存储分段属性包括：</block>
+  <block id="7aa72240c8357c1ccb645c4ed54fc655" category="list-text">分版本控制是为存储分段中的所有对象启用还是禁用。</block>
+  <block id="d92cc14996cce4261a7042bf7143a0eb" category="list-text">您可以选择将标记应用于添加到存储分段中的对象。</block>
+  <block id="7178af2148dd1317957ac72803a11101" category="list-text">是否对添加到存储分段中的新对象进行加密、并使用此选项进行加密。</block>
+  <block id="258dd0211ab217210a7ac3a749ffe94e" category="paragraph">您可以通过单击直接从BlueXP更改这些存储分段设置 <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> &gt;存储分段的*管理详细信息*。</block>
+  <block id="03e28e82e5ae57af9a5632a915905ac6" category="inline-image-macro">显示如何选择管理器详细信息按钮以编辑存储分段属性的屏幕截图。</block>
+  <block id="b1663f0a11aefa655b800e4525611bc7" category="paragraph"><block ref="b1663f0a11aefa655b800e4525611bc7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c1271f859cb12c5ef9b0c1934c2075f1" category="section-title">更改版本控制设置</block>
+  <block id="bb818b7bb7e952216e5edeed36b98b25" category="paragraph">通过版本控制、您可以在一个存储分段中保留多个版本的对象、以便还原意外删除或覆盖的对象。您可以在将未来对象添加到存储分段时更改这些对象的版本控制设置。更改版本控制设置不会更改现有对象的值。</block>
+  <block id="753bbae9e70bd29b4b752a888c7f83aa" category="inline-link">从Amazon S3文档了解有关版本控制的更多信息</block>
+  <block id="c3d2c68ea0cdfed971d8f2a0859913e0" category="paragraph">默认情况下、在BlueXP创建的新存储分段中禁用版本控制、除非您在创建存储分段时启用了对象锁定。<block ref="e0ba6451fd1bf2a059fdd9f9e325cee9" category="inline-link-rx"></block>。</block>
+  <block id="aab47603bd3be752c59a115ffb41d22a" category="paragraph">启用后、如果要暂时或永久停止版本控制、可以选择"已暂停"状态。启用版本控制后、您无法禁用它。</block>
+  <block id="06bf9930fc8459e052599e1b5f0a1a7f" category="inline-image-macro">显示如何更改存储分段的版本控制设置的屏幕截图。</block>
+  <block id="41270662bdf0da5996f1a870b9ab5b44" category="paragraph"><block ref="41270662bdf0da5996f1a870b9ab5b44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03b6a6f1e13411d253ae1983fe76fa25" category="section-title">为存储分段中的对象添加或更改标记</block>
+  <block id="e3463088bdb53d30f897b3ff783db6e9" category="paragraph">标记是元数据、可用于对资源进行分组、以确定应用程序、环境、区域、云提供商等。标记由标记键和标记值组成。您可以向存储分段添加标记、以便在将这些标记添加到存储分段时将其应用于对象。您还可以更改和删除标记和标记值。</block>
+  <block id="07472cd51c11ae72b9be3780b88a4452" category="inline-link">从Amazon S3文档中了解有关标记的更多信息</block>
+  <block id="8cca6242879172b9837873b7da8c2b83" category="paragraph">默认情况下、在由BlueXP创建的新分段中、标记处于禁用状态。<block ref="4051f5e277970bf30a28585f8f548269" category="inline-link-rx"></block>。</block>
+  <block id="b1a649b71c6a44f55f012f92ab2c0f41" category="inline-image-macro">显示如何为存储分段添加新标记键/值对的屏幕截图。</block>
+  <block id="85aee05e1be511f705baeadd5c969d87" category="paragraph"><block ref="85aee05e1be511f705baeadd5c969d87" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="200e9bd07e779ca538757ee7a91c07d5" category="paragraph">添加标记后、单击*应用*以保存更改。如果要添加更多标记、请单击*添加新标记*。每个存储分段最多可以添加10个标记。</block>
+  <block id="26d7220e95a948de8f8bee2eb2c05ec8" category="section-title">更改加密设置</block>
+  <block id="a11df6361d05660cc0ba1f6c0558de49" category="paragraph">通过服务器端加密、您可以对Amazon S3目标上的数据进行加密。Amazon S3会在将数据写入磁盘时在对象级别对数据进行加密、并在您访问数据时对数据进行解密。您可以更改添加到存储分段中的未来对象所使用的加密设置。</block>
+  <block id="2c147b9d28e184c5c63a643164663ed6" category="inline-link">从Amazon S3文档中了解有关服务器端加密的更多信息</block>
+  <block id="c98b354ee5df11c8b64050d46a531282" category="paragraph">默认情况下、在BlueXP创建的新存储分段中使用Amazon S3托管密钥(SSE-S3)启用加密。<block ref="af46c8e128e791b9a73e046d29dfa446" category="inline-link-rx"></block>。</block>
+  <block id="0c5273d88d0edaf0cc1894d20fdd17b3" category="paragraph">或者、您也可以选择使用"AWS密钥管理服务密钥(SSE-KMS)"启用加密。您也可以使用自己的客户提供的密钥(SSE-C)进行加密、但此功能在BlueXP UI中不可用-您需要使用Amazon界面。</block>
+  <block id="62391a98e2571a2594662b67b2d076c0" category="inline-image-macro">显示如何更改用于存储分段的加密密钥类型的屏幕截图。</block>
+  <block id="9aaf4516b7333dbc25618cc5541d6c28" category="paragraph"><block ref="9aaf4516b7333dbc25618cc5541d6c28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f76b7a6398238187f9ab7139f99efa9e" category="paragraph">如果选择"AWS密钥管理服务密钥(SSE-KMS)"、则可以选择已创建的AWS KMS密钥、也可以使用AWS KMS密钥ARN (Amazon资源名称)。</block>
+  <block id="4913270dff142c18b7deff3e020455bb" category="inline-image-macro">显示如何为存储分段选择备用加密设置的屏幕截图。</block>
+  <block id="bf0f1d13b25a835c25ca6497481b616a" category="paragraph"><block ref="bf0f1d13b25a835c25ca6497481b616a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9565d6f3c6daab6a85ad88d83d6afaa3" category="inline-link">从Amazon S3文档中了解有关AWS密钥管理服务的更多信息</block>
+  <block id="6b9ad32bca511ce2ad2c097b7d9a4a78" category="inline-link">使用客户密钥与AWS密钥</block>
+  <block id="2a99f2c69d7ca6830beafd559188a1d0" category="paragraph"><block ref="6680152fb638c9052ac94d98bd762821" category="inline-link-rx"></block> 以及关于<block ref="ff2983fb7d6b017ffe909b1c26efe536" category="inline-link-rx"></block>。</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加一个NetApp 支持站点 帐户、然后注册获取支持。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加NetApp 支持站点 (NSS)帐户、然后注册获取支持。</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支持云提供商解决方案</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">有关已集成到BlueXP中的以下云提供商解决方案的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">适用于 ONTAP 的 Amazon FSX</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">适用于 Google Cloud 的 Cloud Volumes Service</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持授权有两种形式的注册：</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">注册您的BlueXP帐户ID支持订阅(您的20位960xxxxxxxxx序列号、位于BlueXP的支持资源页面上)。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">这是您在BlueXP中使用的任何服务的单一支持订阅ID。必须注册每个BlueXP帐户级别的支持订阅。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在云提供商的市场中注册与订阅关联的Cloud Volumes ONTAP 序列号(即20位909201xxxxxxxx序列号)。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">这些序列号通常称为_PAYGO序列号、并由BlueXP在部署Cloud Volumes ONTAP 时生成。</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">注册这两种类型的序列号可实现打开支持服务单和自动生成案例等功能。</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">您的注册方式取决于您是新客户还是现有客户或合作伙伴。</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">现有客户或合作伙伴</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">作为现有NetApp客户或合作伙伴、您可以使用NetApp 支持站点 (NSS) SSO帐户执行上述注册。在支持信息板中、BlueXP提供了一个* NSS管理*页面、您可以在其中添加NSS帐户。添加NSS帐户后、BlueXP会自动为您注册这些序列号。</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">了解如何添加NSS帐户</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>。</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp新手</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">如果您是NetApp的新用户、则必须在NetApp的支持注册站点上一次性注册您的BlueXP帐户ID序列号。完成此注册并创建新的NSS帐户后、您可以在BlueXP中使用此帐户进行自动注册。</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">了解如何向NetApp注册</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">将NSS帐户添加到BlueXP</block>
+  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">通过支持信息板、您可以添加和管理用于BlueXP的NetApp 支持站点 帐户。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您拥有客户级别的帐户、则可以添加一个或多个NSS帐户。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP控制台的右上角、单击帮助图标、然后选择*支持*。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">单击 * NSS 管理 &gt; 添加 NSS 帐户 * 。</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出现提示时，单击 * 继续 * 以重定向到 Microsoft 登录页面。</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">通过这些操作、BlueXP可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS帐户必须是客户级别的帐户(而不是来宾或临时帐户)。您可以拥有多个客户级别的NSS帐户。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果此帐户是合作伙伴级别的帐户、则只能有一个NSS帐户。如果您尝试添加客户级别的NSS帐户、并且存在合作伙伴级别的帐户、则会收到以下错误消息：</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"此帐户不允许使用NSS客户类型、因为已存在不同类型的NSS用户。"</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客户级别的NSS帐户、并尝试添加合作伙伴级别的帐户、则也是如此。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后、NetApp将存储NSS用户名。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">由三个水平点组成的图标</block>
+  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项将提示您重新登录。请注意、这些帐户的令牌将在90天后过期。系统将发布通知、提醒您注意这一点。</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">向NetApp注册</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">具有NSS帐户的现有客户</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是拥有NSS帐户的NetApp客户、则只需通过BlueXP注册支持即可。</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">如果您尚未将NSS帐户添加到BlueXP、请执行此操作。</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*资源*页面上、单击*注册支持*。</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">显示帐户序列号和注册支持选项的屏幕截图</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">现有客户、但无NSS帐户</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">如果您是现有的NetApp客户、拥有现有许可证和序列号、但拥有_no_ NSS帐户、则只需创建一个NSS帐户即可。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp 支持站点 用户注册表</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">完成以创建NetApp 支持站点 帐户<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">请务必选择适当的用户级别、通常为* NetApp客户/最终用户*。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">请务必复制上面用于序列号字段的BlueXP帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp的新品牌</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客户、并且没有NSS帐户、请按照以下每个步骤进行操作。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户ID序列号。</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支持注册站点</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">导航到<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 并选择*我不是NetApp注册客户*。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填写必填字段(带有红色星号的字段)。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">在*产品线*字段中、选择*云管理器*、然后选择适用的计费提供商。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">复制上述第2步中的帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">系统会立即向提供的邮箱发送一封电子邮件、以完成此安全事务。如果验证电子邮件未在几分钟内收到、请务必检查您的垃圾邮件文件夹。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">在电子邮件中确认操作。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">确认将向NetApp提交您的请求、并建议您创建NetApp 支持站点 帐户。</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">请务必复制上面用于序列号字段的帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此过程中、NetApp应与您联系。这是针对新用户的一次性入职练习。</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">拥有NetApp 支持站点 帐户后、您可以导航到BlueXP以添加此NSS帐户以供将来注册。</block>
+  <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Amazon S3存储文档</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
+  <block id="e11597621f115e17031710501eefedbc" category="sidebar">查看Amazon S3存储分段</block>
+  <block id="fd1c68085eeae378471bac9bc817b052" category="sidebar">管理 S3 存储分段</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
+  <block id="9734d11f1da890ec7434857fd054fb47" category="sidebar">更改存储分段设置</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">更多信息</block>
+  <block id="d2febf9b8431d9dfeed5e223021c353e" category="sidebar">用于在BlueXP之外进行管理的Amazon S3文档</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
+</blocks>
