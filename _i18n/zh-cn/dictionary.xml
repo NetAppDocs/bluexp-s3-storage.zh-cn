@@ -2,7 +2,6 @@
 <blocks>
   <block id="efd9710de9c698fbbeb7b7b11597f70b" category="summary">在AWS中安装Connector后、BlueXP可以自动发现有关安装此Connector的AWS帐户中的Amazon S3存储分段的信息。Amazon S3工作环境已添加到Canvas中、您可以查看此信息。</block>
   <block id="f7099ec977551c0bfc4264472c0bf927" category="doc">查看 Amazon S3 存储分段</block>
-  <block id="bf9799ea7692475c7cf9755a148ec201" category="paragraph">您可以查看有关S3存储分段的详细信息、包括区域、访问策略、帐户、总容量和已用容量等。这些存储分段可用作云备份、云分层或Cloud Sync 操作的目标。此外、您还可以使用Cloud Data sense扫描这些分段。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
   <block id="9c626900b015a97ee8e428d66dd7d5d1" category="inline-link">安装连接器</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">从导航菜单中、选择*存储&gt;画布*。</block>
@@ -133,24 +132,14 @@
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="5617fc4c90db2216d4ba9da3ed61d8ee" category="summary">在BlueXP中发现S3存储分段后、您可以使用NetApp数据服务进行备份、分层、分类和数据同步。</block>
   <block id="49b9d9b89078e5e4f47991c877526750" category="doc">将NetApp数据服务与S3存储分段结合使用</block>
-  <block id="db0f7065ba0a96411a0de05280ec7352" category="list-text">使用*云备份*将数据从内部ONTAP 和Cloud Volumes ONTAP 系统备份到S3对象存储。</block>
   <block id="7eb41a611de377805e9a7df9b3ae691b" category="paragraph">要开始使用、请转到"画布"、将内部ONTAP 或Cloud Volumes ONTAP 工作环境拖放到您的Amazon S3工作环境中。</block>
   <block id="7b7fcd600f1d926ca9fe6a7cb21750f2" category="inline-link">了解有关将ONTAP 数据备份到Amazon S3存储的更多信息</block>
   <block id="16c28e3d84a53771a1a9299bf39e52c2" category="paragraph"><block ref="4ecde652b89e6f04e3058b0cb9af264c" category="inline-link-rx"></block>。</block>
-  <block id="7202459e7043ba4b6f866b6aa920e679" category="list-text">使用*云分层*将内部ONTAP 集群中的非活动数据分层到S3对象存储。</block>
   <block id="3e0f8335010aedcfb82affccaacd20ec" category="paragraph">要开始使用、请转到"画布"并将内部ONTAP 工作环境拖放到您的Amazon S3工作环境中。</block>
   <block id="a9dee648c451dbc4fdeeab5bcb9014ed" category="inline-link">了解有关将ONTAP 数据分层到Amazon S3存储的更多信息</block>
   <block id="9858a8b4f4f88f76a27f43472f5f6ca4" category="paragraph"><block ref="fa191a4a135c670d0161f99d5ad270e4" category="inline-link-rx"></block>。</block>
-  <block id="0e1d535f7ffeb46d1cedce4380540ece" category="list-text">使用* S3存储分段*将数据同步到Cloud Sync 存储分段或从S3存储分段同步数据。</block>
   <block id="b1e27059ba7694353c38efd583f70d7c" category="paragraph">要开始使用、请转到"画布"并将源工作环境拖放到目标工作环境上。您的Amazon S3工作环境可以是源环境、也可以是目标环境。</block>
-  <block id="ab9e49315276ae32c73ed19323492c14" category="paragraph">您也可以选择Amazon S3工作环境、然后单击服务面板中的*同步数据*、以便与S3存储分段同步数据。</block>
-  <block id="d7ac8297012a05979b15d24f9d3b130c" category="inline-link">了解有关Cloud Sync 服务的更多信息</block>
-  <block id="1bd2d5ff3aeebe1a238c886f7388e42f" category="paragraph"><block ref="9349c5ab3057a0ff71d35b794d6794a5" category="inline-link-rx"></block>。</block>
-  <block id="024e60ab8f7a88270d46c6aed054f6bd" category="list-text">使用*云数据感知*扫描S3存储分段中的个人数据和敏感数据。Cloud Data sense可以扫描帐户中的任何存储分段、而不管它是否是为NetApp解决方案 创建的。</block>
   <block id="55bd7bd6bf396c28ae8aca1611f8ee53" category="paragraph">要开始使用、请选择您的Amazon S3工作环境、然后从服务面板的*分类*部分中选择相应的选项以启动S3存储分段扫描。</block>
-  <block id="febefe350001907b76b53ef88b63361e" category="inline-link">详细了解Cloud Data sense服务</block>
-  <block id="3ef78a45208afe4b2f2ca2cdade6c100" category="paragraph"><block ref="4ba69bfe1627585dab52e6f3cbb737bc" category="inline-link-rx"></block>。</block>
-  <block id="f5b5c580cdea371eec20c3e34f9c28d4" category="summary">开始将Amazon S3存储与您的BlueXP系统(以前称为Cloud Manager)结合使用。</block>
   <block id="3bcfa77ba520ecdb90dbb673cc23cb5e" category="doc">Amazon S3存储文档</block>
   <block id="f54c8c1223f73d87869999847d1ae49e" category="summary">了解BlueXP中Amazon S3存储的新增功能。</block>
   <block id="9a8d5d2b68f540bdc8d48d6f59172160" category="doc">在BlueXP中使用Amazon S3存储的新增功能</block>
@@ -291,4 +280,15 @@
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例注释*：提供有关您的问题的更多详细信息、或者选择*上传文件*最多附加五个文件。</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="33f05c582a652d788edcb0b74a401a92" category="list-text"><block ref="c626d18348452ff034d9c34b877c8510" category="inline-link-rx"></block> 在要查看 Amazon S3 存储分段的 AWS 帐户中。</block>
+  <block id="6f398b0701e7de915bb04028de8bb878" category="summary">开始在BlueXP系统中使用Amazon S3存储。</block>
+  <block id="55d43ef1b3aadb22506c7c638269e01f" category="list-text">使用*BlueXP备份和恢复*将数据从内部ONTAP 和Cloud Volumes ONTAP 系统备份到S3对象存储。</block>
+  <block id="e9e23123fd45494a9875ecbf65b7c4c2" category="list-text">使用*BlueXP分层*将非活动数据从内部ONTAP 集群分层到S3对象存储。</block>
+  <block id="abf72b99927199c83ae30fe49e03ad1f" category="list-text">使用*BlueXP copy and sync*将数据同步到S3存储分段或从S3存储分段同步数据。</block>
+  <block id="206ea88fa47e88b7036f838bb0a17b5b" category="paragraph">您也可以选择Amazon S3工作环境、然后从服务面板单击*复制和同步*、以便与S3存储分段同步数据。</block>
+  <block id="f850079a6ff3f16354189a6475029756" category="inline-link">详细了解BlueXP复制和同步服务</block>
+  <block id="5d0005389917956f669c6c8a2bdb9021" category="paragraph"><block ref="38c89c9372e10aa3cf45428e5f26fe27" category="inline-link-rx"></block>。</block>
+  <block id="648a3a428fc442c8406158cb9e5afb20" category="list-text">使用*BlueXP分类*扫描S3存储分段中的个人数据和敏感数据。BlueXP分类功能可以扫描帐户中的任何存储分段、而不管该存储分段是否是为NetApp解决方案 创建的。</block>
+  <block id="79dc7a5f3247a2e3c1f0302827271c0e" category="inline-link">了解有关BlueXP分类服务的更多信息</block>
+  <block id="f44d04f198e327aac7307493564b4f16" category="paragraph"><block ref="9a556273b74cb7e85645de2561f90023" category="inline-link-rx"></block>。</block>
+  <block id="a1b1ace9d93b9726388b0450fcf0ead8" category="paragraph">您可以查看有关S3存储分段的详细信息、包括区域、访问策略、帐户、总容量和已用容量等。这些分段可用作BlueXP备份和恢复、BlueXP分层或BlueXP复制和同步操作的目标。此外、您还可以使用BlueXP分类来扫描这些分段。</block>
 </blocks>
