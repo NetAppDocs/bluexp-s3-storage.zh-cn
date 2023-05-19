@@ -154,7 +154,6 @@
   <block id="7aa72240c8357c1ccb645c4ed54fc655" category="list-text">分版本控制是为存储分段中的所有对象启用还是禁用。</block>
   <block id="d92cc14996cce4261a7042bf7143a0eb" category="list-text">您可以选择将标记应用于添加到存储分段中的对象。</block>
   <block id="7178af2148dd1317957ac72803a11101" category="list-text">是否对添加到存储分段中的新对象进行加密、并使用此选项进行加密。</block>
-  <block id="258dd0211ab217210a7ac3a749ffe94e" category="paragraph">您可以通过单击直接从BlueXP更改这些存储分段设置 <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> &gt;存储分段的*管理详细信息*。</block>
   <block id="03e28e82e5ae57af9a5632a915905ac6" category="inline-image-macro">显示如何选择管理器详细信息按钮以编辑存储分段属性的屏幕截图。</block>
   <block id="b1663f0a11aefa655b800e4525611bc7" category="paragraph"><block ref="b1663f0a11aefa655b800e4525611bc7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c1271f859cb12c5ef9b0c1934c2075f1" category="section-title">更改版本控制设置</block>
@@ -291,4 +290,5 @@
   <block id="79dc7a5f3247a2e3c1f0302827271c0e" category="inline-link">了解有关BlueXP分类服务的更多信息</block>
   <block id="f44d04f198e327aac7307493564b4f16" category="paragraph"><block ref="9a556273b74cb7e85645de2561f90023" category="inline-link-rx"></block>。</block>
   <block id="a1b1ace9d93b9726388b0450fcf0ead8" category="paragraph">您可以查看有关S3存储分段的详细信息、包括区域、访问策略、帐户、总容量和已用容量等。这些分段可用作BlueXP备份和恢复、BlueXP分层或BlueXP复制和同步操作的目标。此外、您还可以使用BlueXP分类来扫描这些分段。</block>
+  <block id="cdf45afb1d66e7ab7ab5a8b752954903" category="paragraph">您可以通过单击直接从BlueXP更改这些存储分段设置 <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> 用于存储分段。</block>
 </blocks>

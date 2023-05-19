@@ -25,7 +25,7 @@ summary: 在Canvas中提供Amazon S3工作环境后、您可以直接从BlueXP�
 * 是否对添加到存储分段中的新对象进行加密、并使用此选项进行加密。
 
 
-您可以通过单击直接从BlueXP更改这些存储分段设置 image:button-horizontal-more.gif["\"三个点更多\"按钮"] >存储分段的*管理详细信息*。
+您可以通过单击直接从BlueXP更改这些存储分段设置 image:button-horizontal-more.gif["\"三个点更多\"按钮"] 用于存储分段。
 
 image:screenshot-edit-amazon-s3-bucket.png["显示如何选择管理器详细信息按钮以编辑存储分段属性的屏幕截图。"]
 
@@ -35,7 +35,7 @@ image:screenshot-edit-amazon-s3-bucket.png["显示如何选择管理器详细信
 
 通过版本控制、您可以在一个存储分段中保留多个版本的对象、以便还原意外删除或覆盖的对象。您可以在将未来对象添加到存储分段时更改这些对象的版本控制设置。更改版本控制设置不会更改现有对象的值。
 
-默认情况下、在BlueXP创建的新存储分段中禁用版本控制、除非您在创建存储分段时启用了对象锁定。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html["从Amazon S3文档了解有关版本控制的更多信息"^]。
+默认情况下、在BlueXP创建的新存储分段中禁用版本控制、除非您在创建存储分段时启用了对象锁定。 https://["从Amazon S3文档了解有关版本控制的更多信息"^]。
 
 启用后、如果要暂时或永久停止版本控制、可以选择"已暂停"状态。启用版本控制后、您无法禁用它。
 
@@ -47,7 +47,7 @@ image:screenshot-amazon-s3-versioning.png["显示如何更改存储分段的版�
 
 标记是元数据、可用于对资源进行分组、以确定应用程序、环境、区域、云提供商等。标记由标记键和标记值组成。您可以向存储分段添加标记、以便在将这些标记添加到存储分段时将其应用于对象。您还可以更改和删除标记和标记值。
 
-默认情况下、在由BlueXP创建的新分段中、标记处于禁用状态。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["从Amazon S3文档中了解有关标记的更多信息"^]。
+默认情况下、在由BlueXP创建的新分段中、标记处于禁用状态。 https://["从Amazon S3文档中了解有关标记的更多信息"^]。
 
 image:screenshot-amazon-s3-tags.png["显示如何为存储分段添加新标记键/值对的屏幕截图。"]
 
@@ -59,7 +59,7 @@ image:screenshot-amazon-s3-tags.png["显示如何为存储分段添加新标记�
 
 通过服务器端加密、您可以对Amazon S3目标上的数据进行加密。Amazon S3会在将数据写入磁盘时在对象级别对数据进行加密、并在您访问数据时对数据进行解密。您可以更改添加到存储分段中的未来对象所使用的加密设置。
 
-默认情况下、在BlueXP创建的新存储分段中使用Amazon S3托管密钥(SSE-S3)启用加密。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["从Amazon S3文档中了解有关服务器端加密的更多信息"^]。
+默认情况下、在BlueXP创建的新存储分段中使用Amazon S3托管密钥(SSE-S3)启用加密。 https://["从Amazon S3文档中了解有关服务器端加密的更多信息"^]。
 
 或者、您也可以选择使用"AWS密钥管理服务密钥(SSE-KMS)"启用加密。您也可以使用自己的客户提供的密钥(SSE-C)进行加密、但此功能在BlueXP UI中不可用-您需要使用Amazon界面。
 
@@ -69,4 +69,4 @@ image:screenshot-amazon-s3-encryption1.png["显示如何更改用于存储分段
 
 image:screenshot-amazon-s3-encryption2.png["显示如何为存储分段选择备用加密设置的屏幕截图。"]
 
-https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html["从Amazon S3文档中了解有关AWS密钥管理服务的更多信息"^] 以及关于 https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-mgmt["使用客户密钥与AWS密钥"^]。
+https://["从Amazon S3文档中了解有关AWS密钥管理服务的更多信息"^] 以及关于 https://["使用客户密钥与AWS密钥"^]。
