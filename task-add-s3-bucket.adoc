@@ -30,9 +30,9 @@ image:screenshot-add-amazon-s3-bucket.png["显示\"添加存储分段\"页面的
 . 在添加存储分段页面中、输入创建存储分段所需的信息、然后单击*应用*。
 +
 .. 输入要用于存储分段的名称。
-.. 选择要成为存储分段所有者的AWS帐户。此帐户可以是部署Connector的主帐户、也可以是 https://["您已添加到BlueXP的其他帐户"^]。
+.. 选择要成为存储分段所有者的AWS帐户。此帐户可以是部署Connector的主帐户、也可以是 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["您已添加到BlueXP的其他帐户"^]。
 .. 选择要创建存储分段的AWS区域。
-.. 或者、您也可以在存储分段上启用S3对象锁定、以便使用一次写入多读(Write Once Read-Many、WORM)模型存储对象。如果您计划使用对象锁定、则必须在创建存储分段时启用它。启用对象锁定还可以启用版本控制。 https://["从Amazon S3文档中了解有关对象锁定的更多信息"^]。
+.. 或者、您也可以在存储分段上启用S3对象锁定、以便使用一次写入多读(Write Once Read-Many、WORM)模型存储对象。如果您计划使用对象锁定、则必须在创建存储分段时启用它。启用对象锁定还可以启用版本控制。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["从Amazon S3文档中了解有关对象锁定的更多信息"^]。
 +
 此时将创建存储分段。
 
