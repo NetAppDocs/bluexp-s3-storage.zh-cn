@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: Amazon S3存储文档
+  summary: 开始在BlueXP系统中使用Amazon S3存储。
+  keywords: amazon s3, storage, bluexp system
+  lead: 开始在BlueXP系统中使用Amazon S3存储。
+  tiles:
+  - title: 入门
+    links:
+    - title: 查看Amazon S3存储分段
+      url: task-viewing-amazon-s3.html
+  - title: 管理 S3 存储分段
+    links:
+    - title: 添加S3存储分段
+      url: task-add-s3-bucket.html
+    - title: 更改存储分段设置
+      url: task-change-s3-bucket-settings.html
+    - title: 将NetApp数据服务与S3存储分段结合使用
+      url: task-s3-enable-data-services.html
+  - title: 更多信息
+    links:
+    - title: 用于在BlueXP之外进行管理的Amazon S3文档
+      url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
+  - title: 博客和社区
+    links:
+    - title: NetApp 社区
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: BlueXP博客
+      url: https://bluexp.netapp.com/blog/topic/cloud-manager
+    - title: 云网络研讨会
+      url: https://bluexp.netapp.com/events
