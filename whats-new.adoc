@@ -24,4 +24,4 @@ summary: 了解BlueXP中Amazon S3存储的新增功能。
 
 === 能够从BlueXP添加新存储分段
 
-您可以在BlueXP Canvas上查看Amazon S3存储分段已有一段时间了。现在、您可以直接从BlueXP添加新存储分段并更改现有存储分段的属性。 https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["了解如何添加新的Amazon S3存储分段"^]。
+您可以在BlueXP Canvas上查看Amazon S3存储分段已有一段时间了。现在、您可以直接从BlueXP  添加新存储分段并更改现有存储分段的属性。 https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["了解如何添加新的Amazon S3存储分段"](英文)。
