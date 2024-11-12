@@ -1,5 +1,7 @@
 = 能够从BlueXP添加新存储分段
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
